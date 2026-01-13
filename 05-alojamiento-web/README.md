@@ -1,31 +1,54 @@
-# 📘 05 – Alojamiento web (Web Hosting)
+## 1️⃣ ¿Qué es el alojamiento web?
 
-## 🧠 Idea principal
+El **alojamiento web** es un servicio que:
 
-El hosting es el **lugar donde viven los archivos de tu sitio web**.
+* Usa computadoras especiales llamadas servidores
+* Que están conectadas a Internet
+* Prendidas todo el tiempo
+* Para guardar sitios web y hacerlos accesibles
 
-### 📌 Analogía rápida
+📌 Es como **alquilar un espacio** en una computadora que nunca se apaga.
 
-* Hosting = terreno
-* Dominio = dirección
-* Sitio web = casa
 
-### 🌍 Ejemplos
+## 2️⃣ Por qué es necesario el alojamiento web
 
-* GitHub Pages
-* Netlify
-* Vercel
+Tu computadora personal:
 
-### 📚 Recursos recomendados
+* Se apaga
+* Cambia de red
+* No está disponible todo el tiempo
 
-* 🎥 Video: *What is Web Hosting?*
-* 🖼️ Imagen: Hosting diagram
+Un servicio de alojamiento web:
 
----
+* Está disponible 24/7
+* Tiene conexión estable
+* Permite que cualquiera acceda a tu sitio
 
-## 🎯 Objetivo del repositorio
+👉 Por eso los sitios web no viven en tu computadora, viven en servidores.
 
-* Aprender fundamentos reales
-* Facilitar el estudio visual
-* Servir como referencia futura
-* Construir base sólida como frontend dev
+
+## 3️⃣ Tipos de alojamiento web
+
+### 🧩 Alojamiento compartido
+
+* Varios sitios usan la misma computadora
+* Es más económico
+* Ideal para sitios pequeños o personales
+
+Ejemplo típico: hosting tradicional
+
+### 🏠 Alojamiento dedicado
+
+* Un solo sitio usa una computadora completa
+* Más recursos
+* Más control
+
+Usado por sitios grandes o empresas
+
+### ☁️ Alojamiento en la nube
+
+* El sito usa varias computadoras
+* No depende de una sola
+* Es más flexible y escalable
+
+Muy usado hoy en día
