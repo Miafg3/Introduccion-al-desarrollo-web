@@ -1,34 +1,92 @@
-# 📘 02 – Qué es un servidor web y cómo funciona
+## 1️⃣ ¿Qué es un servidor?
 
-## 🧠 Idea principal
+Un **servidor** es:
 
-Un **servidor web** es una computadora que responde solicitudes web enviando archivos como HTML, CSS y JS.
+- Una computadora
+- Conectada a Internet
+- Prendida todo el tiempo
+- Preparada para atender a otras computadoras
 
-### 📌 Analogía rápida
 
-Un servidor web es como un **mesero**:
+## 2️⃣ ¿Qué es un servidor web?
 
-* Recibe tu pedido
-* Va a la cocina
-* Te trae lo que pediste
+Un **servidor web** es un **programa** que vive dentro de esa computadora y que se encarga de:
 
-### 🔄 Flujo básico
+- Escuchar pedidos que llegan por Internet
+- Leer qué están pidiendo
+- Buscar la información correcta
+- Enviar una respuesta
 
-1. Navegador hace petición HTTP
-2. Servidor la recibe
-3. Busca el recurso
-4. Envía respuesta
+Ejemplos de servidores web conocidos:
 
-### 🛠️ Ejemplos reales
+- Apache
+- Nginx
+- Node.js
+- Django
 
-* Apache
-* Nginx
-* Node.js (Express)
 
-### 📚 Recursos recomendados
+## 3️⃣ Cómo funciona un servidor web
 
-* 🎥 Video: *Web Server Explained*
-* 🖼️ Imagen: Request / Response
-* 📖 Lectura: MDN – Web servers
+Cada vez que alguien visita un sitio web ocurre esto:
 
----
+![Imagen del funcionamiento de un servidor web](https://www.hostinger.com/mx/tutoriales/wp-content/uploads/sites/39/2023/03/ES-how-web-server-works.jpg)
+
+El servidor web **no inicia la comunicación**, solo responde cuando alguien le pide algo.
+
+
+## 4️⃣ Conceptos clave: Request y Response
+
+Todo en la web funciona con este intercambio:
+
+### 📥 Request (Pedido)
+
+Es un mensaje que dice:
+
+* A qué dirección quiero acceder
+* Qué información necesito
+
+
+### 📤 Response (Respuesta)
+
+Es lo que el servidor envía de vuelta:
+
+* La información solicitada
+* O un mensaje de error si algo salió mal
+
+
+## 5️⃣ Qué hace el servidor cuando recibe un pedido
+
+Cuando llega un pedido, el servidor web:
+
+1. Lo lee
+2. Entiende qué se está pidiendo
+3. Decide qué información corresponde
+4. Envía la respuesta
+
+Ejemplos:
+
+* Puede enviar una página
+* Puede enviar datos
+* Puede decir que algo no existe
+
+👉 Su trabajo principal es **decidir qué responder**.
+
+
+## 6️⃣ Tipos de servidores web
+
+### 📄 Servidor web estático
+
+* Siempre devuelve lo mismo
+* No toma decisiones complejas
+* Entrega archivos ya existentes
+
+Ejemplo: una página web informativa
+
+
+### ⚙️ Servidor web dinámico
+
+* Analiza cada pedido
+* Decide qué responder según la situación
+* Puede devolver información distinta cada vez
+
+Ejemplo: redes sociales, tiendas online
