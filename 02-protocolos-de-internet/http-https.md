@@ -12,9 +12,9 @@ El cliente solicita recursos.
 El servidor los procesa y responde.
 
 
-## HTTP
+## 🔓 HTTP
 
-Es el protocolo base de la web
+Es el protocolo base de la Web, utilizado para la transferencia de documentos hipertexto.
 
 ### Caracteristicas:
 
@@ -22,17 +22,21 @@ Es el protocolo base de la web
 - Basado en solicitudes y respuestas
 - No cifra la información
 - Los datos viajan en texto plano
-- Es vulnerable a interceptaciones
-- No valida identidad del servidor
+- vulnerable a interceptaciones
+- No valida la identidad del servidor
 
 Fue el estándar inicial para la transmisión de páginas web.
 
-## HTTPS
+## 🔐 HTTPS
 
-Es la versión segura de HTTP.
+Es la versión segura de HTTP, diseñada para proteger la comunicación en la Web.
+
+### Caracteristicas:
 
 - Utiliza cifrado SSL/TLS
 - Cifra los datos transmitidos
 - Protege información sensible 
-- Evita ataques de intermediarios (MITM)
-- Verifica la identidad del servidor mediante certificados 
+- Previene ataques de intermediarios (MITM)
+- Verifica la identidad del servidor mediante certificados digitales
+
+Actualmente es el estándar de seguridad en Internet.
