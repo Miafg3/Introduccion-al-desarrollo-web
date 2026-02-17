@@ -4,13 +4,6 @@ Un **navegador** es un software que permite a los usuarios acceder, interpretar 
 
 Actúan como la interfaz entre el usuario y la infraestructura de internet, implementando protocolos, motores de renderizado y sistemas de ejecución que permiten visualizar aplicaciones web modernas.
 
-
-```bash
-Usuario → Navegador → Internet → Servidor
-                           ↓
-                    Respuesta Web
-```
-
 Su responsabilidad es:
 
 - Construir solicitudes HTTP/HTTPS
