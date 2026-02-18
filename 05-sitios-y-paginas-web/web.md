@@ -1,4 +1,4 @@
-# 🌍 Sitios web y páginas web
+# 🌍 Sitios y páginas web
 
 ## 1️⃣ ¿Qué es una página web?
 
@@ -14,13 +14,6 @@ Puede contener:
 - Videos
 - Botones
 - Enlaces
-
-Ejemplos de páginas web:
-
-- Página de inicio de un sitio
-- Una noticia específica
-- Un artículo de un blog
-
 
 ## 2️⃣ ¿Qué es un sitio web?
 
